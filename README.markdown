@@ -1,4 +1,4 @@
-# Rails for Designers
+# NU Starters
 
 [#nustarters](https://twitter.com/search/realtime?q=%23nustarters&src=typd) [@starterleague](https://twitter.com/starterleague)
 
@@ -166,7 +166,7 @@ end
 - Hint: every table automatically gets a column called `id`. The URL for the show page of a particular project is `/projects/<that project's ID number>`.
 - [One possible solution can be seen here](https://github.com/tsl-nu/portfolio/commit/f5c7f15ac79534b53449d12b87523d00c6460bef) -- don't look at it until you've finished!
 
-### Only allow Read access.
+### Only allow Read access
 
 - If you want to sync up, `git add -A`, `git stash`, `git checkout v4`
 - In the `app/controllers/projects_controller.rb` file, add the line `http_basic_authenticate_with :name => "jeff", :password => "hockey", :except => [:index, :show]` on line 2

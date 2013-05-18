@@ -132,7 +132,7 @@ end
 
 ### Clone a repository from GitHub
 
-- Navigate to `~/dev/sxsw` in Terminal
+- Navigate to `~/code/tsl-nu` in Terminal
 - `git clone https://github.com/tsl-nu/portfolio` Download the code and version history
 - `cd portfolio` Navigate into the repository
 - `git checkout v2` Jump back to the first version
